@@ -30,3 +30,5 @@ where $L$ is the loss function (Log-Loss for XGBoost).
 2. Install dependencies:
    ```bash
    pip install numpy pandas scikit-learn xgboost shap joblib matplotlib
+   python automated_ml_pipeline.py
+   Performance MetricsAccuracy: ~95%Identifiability: High (via correlation and variance pruning).Generalization: Verified via $k$-fold cross-validation to ensure stability on unseen distributions.Tech StackLanguages: PythonLibraries: Scikit-learn, XGBoost, SHAP, NumPy, Pandas, JoblibVisualization: Matplotlib, Seaborn
